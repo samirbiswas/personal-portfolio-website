@@ -1,0 +1,29 @@
+.name-design{
+    font-size: 60px;
+}
+.image-setting{
+   border-style: inset;
+   border-color:  #00cf5d;
+   border-width: 0px 5px;
+   border-radius: 5px;
+   height: 300px;
+   
+
+}
+.follow-me{
+    margin-left: 100px;
+}
+
+.icon-settings li {
+    list-style: none;
+    align-items: center;
+    font-size: 25px;
+    margin-left: 55px;
+    margin-top: 1px;
+    border-radius: 5px;
+    
+    
+}
+.fab{
+background-color: aliceblue;
+}
