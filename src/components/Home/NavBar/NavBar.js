@@ -13,21 +13,30 @@ const NavBar = () => {
 
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav ml-auto ">
-            <Link to='/about'>
+            <Link style={{textDecoration: 'none'}} to='/'>
                 <li class="nav-item active ml-3">
+                    <a className="nav-link text-light">HOME</a>
+                </li>
+            </Link>
+            
+            <Link style={{textDecoration: 'none'}} to='/about'>
+                <li class="nav-item ml-3">
                     <a className="nav-link text-light">ABOUT</a>
                 </li>
             </Link>
-            <li class="nav-item ml-3">
-                <a class="nav-link text-light" href="/">SKILL</a>
-            </li>
-            <li class="nav-item ml-3">
-                <a class="nav-link text-light" href="/">PORTFOLIO </a>
-            </li>
-            <li class="nav-item ml-3">
-                <a class="nav-link text-light" href="/">BLOG</a>
-            </li>
-            <Link to='contact'>
+            
+            <Link style={{textDecoration: 'none'}} to='/portfolio'>
+                <li class="nav-item ml-3">
+                    <a class="nav-link text-light" >PORTFOLIO </a>
+                </li>
+            </Link>
+            <Link style={{textDecoration: 'none'}} to='/blog'>
+                <li class="nav-item ml-3">
+                    <a class="nav-link text-light">BLOG</a>
+                </li>
+                
+            </Link>
+            <Link style={{textDecoration: 'none'}} to='contact'>
             <li class="nav-item ml-3">
                 <a class="nav-link text-light">CONTACT</a>
             </li>

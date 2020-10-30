@@ -8,6 +8,9 @@ import {
 } from "react-router-dom";
 import About from './components/Pages/About/About';
 import ContactUs from './components/Pages/ContactUs/ContactUs';
+import Portfolio from './components/Pages/Portfolio/Portfolio';
+import Blog from './components/Pages/Blog/Blog';
+
 function App() {
   return (
     <Router>
@@ -20,10 +23,17 @@ function App() {
           <About></About>
         </Route>
         <Route path='/contact'>
-         <ContactUs></ContactUs>
+          <ContactUs></ContactUs>
         </Route>
-
+        <Route path='/portfolio'>
+          <Portfolio></Portfolio>
+        </Route>
+        <Route path='/blog'>
+        <Blog></Blog>
+        </Route>
+        
       </Switch>
+      
     </Router>
   );
 }
