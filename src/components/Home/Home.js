@@ -10,7 +10,9 @@ const Home = () => {
         <div>
             <Header></Header>
            
+            <div className='footer-setting'>
             <Footer></Footer>
+            </div>
            
         </div>
     );

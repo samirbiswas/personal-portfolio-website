@@ -21,7 +21,7 @@ const HeaderMain = () => {
                         <h3 className='text-success'>Front End Developer</h3>
                         <p className='description pb-3'>A front-end web developer is responsible for implementing visual
                          elements that users see and interact with in a web application.</p>
-                        <a style={{textDecoration: 'none'}} className="text-white bg-success p-3 rounded" href={filess}>GET RESUME</a>
+                        <a style={{textDecoration: 'none'}} className="text-white bg-success p-3 rounded" href={filess} target="_blank">GET RESUME</a>
                         <Link  style={{textDecoration: 'none'}} to='/about'>
                         <a style={{textDecoration: 'none',marginLeft:'5px'}} className="text-white bg-success p-3 rounded" >ABOUT ME</a>
                         </Link>
@@ -34,13 +34,13 @@ const HeaderMain = () => {
                   <h5 className='text-success follow-me'>Follow Me </h5>
                   <div className="text-white d-flex  icon-settings">
 
-                  <li>
-                      <a href="https://github.com/samirbiswas/" target="_blank"><FontAwesomeIcon icon={['fab', 'github']} /> </a>
+                  <li className='a-color'>
+                      <a  href="https://github.com/samirbiswas/" target="_blank"><FontAwesomeIcon icon={['fab', 'github']} /> </a>
                   </li>
-                  <li>
+                  <li className='a-color'>
                       <a href="https://www.linkedin.com/in/samirbiswas99/" target="_blank"><FontAwesomeIcon icon={['fab', 'linkedin']} /> </a>
                   </li>
-                  <li>
+                  <li className='a-color'>
                       <a href="https://medium.com/@samir99biswas" target="_blank"><FontAwesomeIcon icon={['fab', 'medium']} /> </a>
                   </li>
                   

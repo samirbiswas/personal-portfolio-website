@@ -26,5 +26,26 @@
     
 }
 .description{
-    font-size:18px;
+    font-size:20px;
 }
+.a-color a{
+    color:white;
+   
+}
+
+@media only screen and (max-width: 576px) {
+   body {
+      height: 100%;
+     background-color: #1d293a;
+      
+    }
+    .image-setting{
+        margin-top: 8%;
+        margin-left: -7%;
+    }
+    .footer-setting{
+        margin-top: 40%;
+
+    }
+
+  }

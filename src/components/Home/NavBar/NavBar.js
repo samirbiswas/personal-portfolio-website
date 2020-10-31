@@ -42,7 +42,7 @@ const NavBar = () => {
             </li>
             </Link>
             <li class="nav-item ml-3">
-                <a class="nav-link text-light resume-btn" href={filess}>RESUME</a>
+                <a class="nav-link text-light resume-btn" href={filess} target="_blank">RESUME</a>
             </li>
 
    
